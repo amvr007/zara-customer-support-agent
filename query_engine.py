@@ -75,5 +75,3 @@ recomendation_index = VectorStoreIndex.from_documents(
 support_engine = support_index.as_query_engine()
 
 recommendation_engine = recomendation_index.as_query_engine()
-
-print(recommendation_engine.query("give me the price of some bodysuits"))
