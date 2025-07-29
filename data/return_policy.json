@@ -1,0 +1,60 @@
+{
+  "return_policy": {
+    "general_conditions": {
+      "deadline": {
+        "online_shopping": "one month from shipping date",
+        "physical_store": "one month from purchase date"
+      },
+      "item_requirements": [
+        "items must be in original condition",
+        "must include all labels"
+      ],
+      "region_requirement": "return in same market/region as purchase",
+      "deadline_info": "deadline shown in order details"
+    },
+    "return_methods": {
+      "store_return": {
+        "name": "Returns to Zara Store",
+        "cost": "FREE",
+        "availability": "both online and in-store purchases",
+        "requirements": [
+          "store must have same section as purchased item",
+          "provide items to be returned",
+          "provide purchase receipt"
+        ],
+        "proxy_return": "someone else can return for you"
+      },
+      "home_collection": {
+        "name": "Home Collection",
+        "cost": "59.90 MAD per request",
+        "cost_note": "discounted from refund amount",
+        "effective_date": "orders made after 24.07.2025",
+        "pickup_time": "24-48 hours",
+        "availability": "online purchases only",
+        "process": {
+          "registered_user": "request from order details",
+          "guest_purchase": "use link from order emails"
+        },
+        "includes": "courier brings return label",
+        "receipt_required": false
+      },
+      "drop_off_point": {
+        "name": "Return at Drop Off Point",
+        "cost": "FREE",
+        "availability": "online purchases only",
+        "carrier": "Aramex drop points",
+        "process": {
+          "registered_user": "request from order details", 
+          "guest_purchase": "use link from order emails"
+        },
+        "includes": [
+          "email with shipping instructions",
+          "return labels for each box"
+        ],
+        "receipt_required": false
+      }
+    },
+    "currency": "USD",
+    "additional_info": "see Terms of Use for Return and Exchange Policy details"
+  }
+}

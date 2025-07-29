@@ -1,0 +1,70 @@
+{
+  "faq": {
+    "delivery": {
+      "order_tracking": {
+        "question": "When will I receive my order?",
+        "answer": "Estimated delivery date provided at order placement. Track from your account or guest link in emails.",
+        "tracking_method": {
+          "registered_user": "track from account",
+          "guest_user": "use link in order emails"
+        }
+      },
+      "shipping_changes": {
+        "question": "Can I change the shipping method?",
+        "answer": "Shipping method cannot be changed after purchase completion.",
+        "restriction": "no changes allowed post-purchase"
+      },
+      "delivery_issues": {
+        "question": "What happens if my order cannot be delivered?",
+        "answer": "Contact us if absent during home delivery - we will verify with courier.",
+        "action_required": "contact customer service"
+      },
+      "order_delays": {
+        "question": "Can my order be delayed?",
+        "answer": "If unable to deliver on estimated date, email sent with new delivery date in order details.",
+        "notification_method": "email + order details update"
+      },
+      "missing_delivered_order": {
+        "question": "Order shows delivered but I haven't received it. What can I do?",
+        "answer": "Contact Customer Service for delivery issues. May need to complete DOR document.",
+        "actions": [
+          "contact customer service",
+          "complete DOR if instructed"
+        ]
+      }
+    },
+    "refunds": {
+      "refund_confirmation_email": {
+        "question": "Why haven't I received my refund confirmation email?",
+        "answer": "Check email address linked to purchase is correct. Drop point returns processed when goods arrive at premises.",
+        "troubleshooting": [
+          "verify email address",
+          "drop point returns take longer to process"
+        ]
+      },
+      "lost_payment_card": {
+        "question": "I no longer have the card I used to make the purchase. How will I receive my refund?",
+        "answer": "Refunds processed to same payment method. Contact your bank for assistance with lost cards.",
+        "refund_method": "same as original payment",
+        "recommendation": "contact bank for help"
+      },
+      "lost_gift_card": {
+        "question": "I no longer have the gift card I used to pay. Where will I receive my refund?",
+        "answer": {
+          "online_purchase": "virtual copy of card with updated balance sent via email",
+          "store_purchase": "store staff issues refund on Voucher or Gift Card"
+        }
+      },
+      "partial_refund": {
+        "question": "Why have I received a partial refund for my return?",
+        "answer": "Items sent in multiple boxes processed at different times. Each return confirmed by separate email.",
+        "explanation": "multiple boxes = multiple processing times",
+        "option": "contact customer service for detailed review"
+      }
+    },
+    "general_support": {
+      "contact_method": "Customer Service",
+      "document_access": "DOR document available via provided link"
+    }
+  }
+}

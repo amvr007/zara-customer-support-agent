@@ -1,0 +1,34 @@
+{
+  "shipping_policy": {
+    "general_info": {
+      "delivery_days": "working days only",
+      "address_requirement": "shipping address must be in same market/region as purchase",
+      "availability_note": "options vary by delivery address, order time, and item availability"
+    },
+    "shipping_methods": {
+      "store_delivery": {
+        "name": "Shipping to Zara Store",
+        "delivery_time": "3-6 working days",
+        "cost": "FREE",
+        "collection_period": "15 days to collect",
+        "collection_requirements": [
+          "Present ZARA QR code",
+          "Present QR code from electronic receipt",
+          "Alternative person must show ID card"
+        ]
+      },
+      "home_delivery": {
+        "name": "Home Delivery",
+        "delivery_time": "3-6 working days",
+        "cost": "7 USD",
+        "free_shipping": {
+          "threshold": "79 USD",
+          "condition": "non-discounted items only"
+        },
+        "address_modification": "available for registered users when order status allows"
+      }
+    },
+    "currency": "USD",
+    "market_region": "USA"
+  }
+}
