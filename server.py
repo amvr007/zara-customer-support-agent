@@ -1,4 +1,5 @@
-from query_engine import support_engine, recommendation_engine
+from support import support_engine
+from recommendation import recommendation_engine
 from mcp.server.fastmcp import FastMCP
 
 mcp = FastMCP("zarasrvr")
@@ -15,10 +16,10 @@ def support_client(query:str) -> str:
 
 @mcp.tool()
 def recommendation_client(query:str) -> str:
-    """recommend products based on user preferences"""
+    """tool for recommending zara products"""
     try:
         response = recommendation_engine.query(query)
-        return response.response
+        return str(response)
     except Exception as e:
         return f"Error searching recommendation knowledge: {str(e)}"
     
