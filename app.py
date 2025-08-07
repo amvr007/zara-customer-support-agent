@@ -2,9 +2,9 @@ import streamlit as st
 import asyncio
 from agent import get_agent_response
 
-st.set_page_config(page_title="Zara Agent", page_icon="👗", layout="wide")
+st.set_page_config(page_title="Zara Customer Support Agent", page_icon="https://logomakerr.ai/blog/wp-content/uploads/2022/08/2019-to-Present-Zara-logo-design.jpg", layout="wide")
 
-st.title("🛍️ Zara Customer Service Agent")
+st.image("https://logomakerr.ai/blog/wp-content/uploads/2022/08/2019-to-Present-Zara-logo-design.jpg", width=200)
 st.markdown("Ask me about products, shipping, returns, or any other questions!")
 
 if "messages" not in st.session_state:
